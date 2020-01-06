@@ -4,7 +4,7 @@ resolvePathToDestiantionFor: instance id: instanceId searchNode: searchNode
 	path := OrderedCollection new.
 	path add: searchNode x @ searchNode y.
 	parent := searchNode parent.
-	[ parent isNotNil ] whileTrue: [ 
+	[ parent isNil not ] whileTrue: [ 
 		path addLast: parent x @ parent y.
 		parent := parent parent ].
 	instance callback value: ((path asArray) reverse).
