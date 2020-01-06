@@ -39,7 +39,7 @@ testPathWithCornerCutting
 	easyStar diagonalsEnabled: true.
 	easyStar acceptableTiles: { 1 }.
 	easyStar findPathFrom: 1 @ 1 to: 5 @ 5 onPathFound: [ :path | 
-		self assert: path isNotEmpty.
+		self assert: path isEmpty not.
 		self assert: path size equals: 5 .
 		self assert: (path at: 1) x equals: 1.
 		self assert: (path at: 1) y equals: 1.
