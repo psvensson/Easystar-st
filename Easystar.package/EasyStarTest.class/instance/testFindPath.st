@@ -11,7 +11,7 @@ testFindPath
 	easyStar acceptableTiles: { 1 }.
 	easyStar avoidAdditionalPointX: 3 y: 4. 
 	easyStar findPathFrom: 2@3 to: 4@3 onPathFound: [ :path |
-		 self assert: path isNotNil.
+		self assert: path isNil not.
 		self assert: path size equals: 7.
 		self assert: (path at: 1) x equals: 2.
 		self assert: (path at: 1) y equals: 3.

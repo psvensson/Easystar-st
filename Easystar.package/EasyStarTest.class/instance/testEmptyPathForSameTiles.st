@@ -10,6 +10,6 @@ testEmptyPathForSameTiles
 	easyStar setGrid: map.
 	easyStar acceptableTiles: { 1 }.
 	easyStar findPathFrom: 2@3 to: 2@3 onPathFound: [ :path |
-		 self assert: path isNotNil.
+		 self assert: path isNil not.
 		self assert: path size equals: 0.  ]. 
 	easyStar calculate.  

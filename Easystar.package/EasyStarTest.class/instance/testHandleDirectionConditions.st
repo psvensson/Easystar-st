@@ -17,7 +17,7 @@ testHandleDirectionConditions
 	easyStar setDirectionalConditionX: 1 y: 1 allowedDirections: {'BOTTOM'}.
 	
 	easyStar findPathFrom: 3@1 to: 1@1 onPathFound: [ :path |
-		self assert: path isNotNil.
+		self assert: path isNil not.
 		self assert: (path size) equals: 7.
 		self assert: (path at: 4) x equals: 3.
 		self assert: (path at: 4) y equals: 3  ]. 
