@@ -7,7 +7,7 @@ initialize
 	directionalConditions := Dictionary   new.
 	allowCornerCutting := true.	
 	instances := Dictionary new.
-	instanceQueue := DoubleLinkedList new.
+	instanceQueue := OrderedCollection new.
 	iterationsPerCalculation := 1000000.
 	diagonalsEnabled :=  false.
 	maxX := 0.

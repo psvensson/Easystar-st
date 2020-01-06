@@ -1,3 +1,3 @@
 accessing
 removeAllAdditionalPointCost
-	pointsToCost := Array2D new
+	pointsToCost := Dictionary new
