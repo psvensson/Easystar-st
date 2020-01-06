@@ -1,0 +1,3 @@
+accessing
+simpleDistanceToTarget
+	^ simpleDistanceToTarget

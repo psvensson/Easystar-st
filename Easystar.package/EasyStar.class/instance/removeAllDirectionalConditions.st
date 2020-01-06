@@ -1,0 +1,3 @@
+accessing
+removeAllDirectionalConditions
+	directionalConditions := Dictionary new

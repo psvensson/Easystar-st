@@ -1,0 +1,3 @@
+accessing
+bestGuessDistance
+	^ costSoFar + simpleDistanceToTarget 

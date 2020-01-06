@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Easystar-Pathfinding",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pointsToAvoid",
+		"startX",
+		"startY",
+		"callback",
+		"endX",
+		"endY",
+		"nodeHash",
+		"openList",
+		"isDoneCalculating",
+		"id"
+	],
+	"name" : "EasyStarInstance",
+	"type" : "normal"
+}

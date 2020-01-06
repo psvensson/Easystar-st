@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Easystar-Pathfinding",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"costSoFar",
+		"simpleDistanceToTarget",
+		"parent",
+		"list"
+	],
+	"name" : "EasyStarNode",
+	"type" : "normal"
+}

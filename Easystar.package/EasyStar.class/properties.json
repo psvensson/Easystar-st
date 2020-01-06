@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Easystar-Pathfinding",
+	"classinstvars" : [
+		"instanceId"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"syncEnabled",
+		"pointsToAvoid",
+		"costMap",
+		"pointsToCost",
+		"directionalConditions",
+		"allowCornerCutting",
+		"instances",
+		"instanceQueue",
+		"iterationsPerCalculation",
+		"diagonalsEnabled",
+		"acceptableTiles",
+		"collisionGrid",
+		"maxX",
+		"maxY"
+	],
+	"name" : "EasyStar",
+	"type" : "normal"
+}
