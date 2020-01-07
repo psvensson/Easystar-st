@@ -16,11 +16,11 @@ Here is a unit test that show how to set up and call Easystar (For more complex 
 testFindPath
 	| easyStar map |
 	easyStar := EasyStar new. 
-	map := {	Array with:1 with: 1 with: 0 with: 1 with: 1.
-				Array with:1 with: 1 with: 0 with: 1 with: 1.
-				Array with:1 with: 1 with: 0 with: 1 with: 1.
-				Array with:1 with: 1 with: 1 with: 1 with: 1.
-				Array with:1 with: 1 with: 1 with: 1 with: 1. } .
+	map := #((1 1 0 1 1)
+		 (1 1 0 1 1)
+		 (1 1 0 1 1)
+		 (1 1 1 1 1)
+		 (1 1 1 1 1)).
 	easyStar setGrid: map.
 	easyStar acceptableTiles: { 1 }.
 	easyStar avoidAdditionalPointX: 3 y: 4. 
