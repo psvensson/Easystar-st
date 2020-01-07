@@ -12,7 +12,7 @@ Metacello new
 # Using
 
 Here is a unit test that show how to set up and call Easystar (For more complex examples see the other unit tests in the package);
-```
+```Smalltalk
 testFindPath
 	| easyStar map |
 	easyStar := EasyStar new. 
