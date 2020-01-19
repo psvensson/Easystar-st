@@ -21,7 +21,8 @@
 		"acceptableTiles",
 		"collisionGrid",
 		"maxX",
-		"maxY"
+		"maxY",
+		"offset"
 	],
 	"name" : "EasyStar",
 	"type" : "normal"

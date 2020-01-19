@@ -11,5 +11,6 @@ initialize
 	iterationsPerCalculation := 1000000.
 	diagonalsEnabled :=  false.
 	maxX := 0.
-	maxY := 0
+	maxY := 0.
+	offset := 0@0
 	
